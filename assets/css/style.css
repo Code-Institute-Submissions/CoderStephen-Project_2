@@ -8,9 +8,17 @@
 
 body {
     font-family: Roboto, sans-serif;
-    font-weight: 400px;
+    font-weight: 300px;
     background-color: black;
     background-image: url('../images/milky_way.jpg');
     color: white;
     text-align: center;
+}
+
+header {
+    font-family: Comic+Neue, sans-serif;
+    font-weight: 300px;
+    letter-spacing: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px 0px;
 }
