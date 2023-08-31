@@ -56,8 +56,22 @@ table {
     margin-right: auto;
     margin-left: auto;
     margin-top: 25px;
+    margin-bottom: 50px;
     background-color: rgba(0, 0, 0, 0.5);
-    text-align: left;
+}
+
+
+th {
+    border-left: 1px solid rgb(182, 182, 0);
+    border-bottom: 1px solid rgb(182, 182, 0);
+}
+
+td {
+    border-left: 1px solid rgb(182, 182, 0);
+}
+
+.border-remove {
+    border-bottom: none;
 }
 
 .bold-upper {
