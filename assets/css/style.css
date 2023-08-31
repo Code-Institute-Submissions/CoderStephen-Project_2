@@ -13,6 +13,7 @@ body {
     background-image: url('../images/milky_way.jpg');
     color: white;
     text-align: center;
+    letter-spacing: 3px;
 }
 
 header {
@@ -21,4 +22,24 @@ header {
     letter-spacing: 5px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 25px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#page-nav {
+    font-size: 150%;
+    list-style: none;
+    padding: 25px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#page-nav li {
+    display: inline;
+    margin-right: 50px;
+}
+
+#page-nav a:hover {
+    color:red;
 }
