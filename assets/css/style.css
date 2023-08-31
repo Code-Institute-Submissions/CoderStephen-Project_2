@@ -11,7 +11,7 @@ body {
     font-weight: 300px;
     background-color: black;
     background-image: url('../images/milky_way.jpg');
-    color: white;
+    color: rgb(182, 182, 0);
     text-align: center;
     letter-spacing: 3px;
 }
@@ -42,4 +42,25 @@ a {
 
 #page-nav a:hover {
     color:red;
+}
+
+p {
+    text-align: left;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+table {
+    width: 33%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+.bold-upper {
+    text-decoration: bold;
+    text-transform: uppercase;
 }
