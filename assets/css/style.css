@@ -78,3 +78,13 @@ td {
     text-decoration: bold;
     text-transform: uppercase;
 }
+
+#game h2 {
+    display:inline;
+    margin-right:5%;
+    margin-left: 5%;
+}
+
+.float-right {
+    float:right;
+}
