@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400px;
+    background-color: black;
+    background-image: url('../images/milky_way.jpg');
+    color: white;
+    text-align: center;
+}
