@@ -88,3 +88,15 @@ td {
 .float-right {
     float:right;
 }
+
+.player{
+    color:rgb(182, 182, 0);
+}
+
+.computer {
+    color: red
+}
+.option {
+    border: none;
+    margin-top: 15px;
+}
