@@ -66,20 +66,28 @@
 
 <section id="game">
     <h2 class="player">Player:<span id="player-score"></span><h2>
-    <h2 class="computer">Computer:<span id="computer-score"></span></h2>
-  <div>
-        <button class="option" id="rock" type="submit"><img src="assets/images/rock.jpg" alt="buttonpng" /></button>
+    <h2 class="computer">Computer:<span id="comp-score"></span></h2>
+  <div class="btn">
+        <button class="option" id="rock" ><img src="assets/images/rock.jpg" alt="Click here to choose rock" width="120px" height="100px"></button>
 
-        <button class="option" id="paper">Paper</button>
+        <button class="option" id="paper" ><img src="assets/images/paper.jpg" alt="Click here to choose paper" width="120px" height="100px"></button>
 
-        <button class="option" id="scissors">Scissors</button>
+        <button class="option" id="scissors" ><img src="assets/images/scissors.jpg" alt="Click here to choose scissors" width="120px" height="100px"></button>
 
-        <button class="option" id="lizard">Lizard</button>
+        <button class="option" id="lizard" ><img src="assets/images/lizard.jpg" alt="Click here to choose lizard" width="120px" height="100px"></button>
 
-        <button class="option" id="spock">Spock</button>
-        
-            <h2 class = 'float-right'>this is where the computer choice will display</h2>
+        <button class="option" id="spock" ><img src="assets/images/spock.jpg" alt="Click here to choose spock" width="120px" height="100px"></button>    
             </div>
+            <div>
+            <h2>
+                <span id="player-choice">
+            </span>
+            VS 
+            <span id="comp-choice">
+            </span>
+            </h2>
+ </div>
+ <h2><span id="result"></span></h2>
         
 </section>
     
@@ -87,6 +95,7 @@
     <footer>
 
     </footer>
-    <script src="assets/javascript/app.js"></script>
+    
+    <script src="app.js" charset="UTF-8"></script>
 </body>
 </html>

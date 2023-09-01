@@ -97,6 +97,10 @@ td {
     color: red
 }
 .option {
-    border: none;
-    margin-top: 15px;
+    margin: 15px;
+}
+
+.btn button {
+    height: 100px;
+    width: 120px;
 }
