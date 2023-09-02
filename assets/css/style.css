@@ -79,7 +79,13 @@ td {
     text-transform: uppercase;
 }
 
-#game h2 {
+#game {
+    width:75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#scores h2 {
     display:inline;
     margin-right:5%;
     margin-left: 5%;
@@ -101,7 +107,15 @@ td {
 }
 
 button {
-    height: 100px;
-    width: 120px;
+    height: 40px;
+    width: 100px;
+    background-color: rgba(9, 99, 16, 0.8);
 }
 
+.inline {
+    display: inline;
+}
+
+#color {
+    color: red;
+}
