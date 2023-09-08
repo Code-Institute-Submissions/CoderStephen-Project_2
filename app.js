@@ -1,32 +1,10 @@
-const playerChoice = document.getElementById('player-choice');
-const compChoice = document.getElementById('comp-choice');
-const outcome = document.getElementById('result');
-const choices = document.querySelectorAll('button');
-let playChoice;
-let computerPlays;
+const buttons = document.getElementsByClassName("controls");
+const playerScore = document.getElementById("player-score");
+const computerScore = document.getElementById("comp-score");
+const choices = ["rock","paper","scissors","lizard","spock"];
 
-choices.forEach(choices => choices.addEventListener('click', (event) => {
-    playChoice = event.target.id
-    playerChoice.innerHTML = playChoice
-    generateCompChoice()
-}));
-function generateCompChoice() {
-   const randomNumber = Math.floor(Math.random() * choices.length) + 1
-    
-    if (randomNumber === 1){
-        computerPlays = 'rock';
-    } 
-    if (randomNumber === 2){
-        computerPlays = 'paper';
-    } 
-    if (randomNumber === 3) {
-            computerPlays = 'scissors';
-        } 
-        if (randomNumber === 4) {
-                computerPlays = 'lizard';
-            } 
-            if (randomNumber === 5) {
-                    computerPlays = 'spock';
-                }
-                compChoice.innerHTML = computerPlays;
+for (let button of buttons) {
+    button.addEventListener("click", function () {
+        let playerChoice = this.getAttribute("data-choice");
+    });
 }
