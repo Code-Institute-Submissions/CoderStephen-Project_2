@@ -16,7 +16,7 @@ function playGame (playerChoice) {
     playerChoiceDisplay.src = 'assets/images/${choices[playerChoice]}.jpg';
     playerChoiceDisplay.alt = choices[playerChoice];
 
-    let computerChoice = math.floor(math.random() * 5);
+    let computerChoice = Math.floor(Math.random() * 5);
 
     computerChoiceDisplay.src = 'assets/images/${choices[playerChoice]}.jpg';
     computerChoiceDisplay.alt = choices[playerChoice];
@@ -28,5 +28,40 @@ function playGame (playerChoice) {
 }
 
 function checkWinner () {
-    if (computerChoice)
+    if (computerChoice === playerChoice) {
+        result = "It's a draw!"
+    }
+    if (computerChoice === choices['0'] && playerChoice === choices['2']) {
+        result = 'You win!'
+    }
+    if (computerChoice === choices['0'] && playerChoice === choices['4']) {
+        result = 'You win!';
+    }
+    if (computerChoice === choices['0'] && playerChoice === choices['1']) {
+        result = 'You lose!'
+    }
+    if (computerChoice === choices['0'] && playerChoice === choices['3']) {
+        result = 'You lose!';
+    }
+    if (computerChoice === choices['1'] && playerChoice === choices['2']) {
+        result = 'You lose!';
+    }
+    if (computerChoice === choices['1'] && playerChoice === choices['3']) {
+        result = 'You lose!';
+    }
+    if (computerChoice === choices ['1'] && playerChoice === choices ['4']) {
+        result = 'You win!';
+    }
+    if (computerChoice === choices['1'] && playerChoice === choices['0']) {
+        result = 'You win!';
+    }
+    if (computerChoice === choices['2'] && playerChoice === choices['3']) {
+        result = 'You win!';
+    }
+    if (computerChoice === choices['2'] && playerChoice === choices['4']) {
+        result = 'You lose!';
+    }
+    if (computerChoice === choices['3'] && playerChoice === choices['4']) {
+        result = 'You win!';
+    }
 }
